@@ -1,16 +1,44 @@
-# React + Vite
+# Reddit Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A Reddit browsing application built with React and Redux. Users can view posts, search posts, filter by subreddit, and open a detailed view with comments.
 
-Currently, two official plugins are available:
+## Wireframes
+(Add your wireframe images or links here)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- Redux Toolkit
+- Vite
+- CSS / Responsive Design
+- Jest (unit tests)
+- Selenium / Cypress (end-to-end tests)
+- Git & GitHub
+- Reddit API
 
-## React Compiler
+## Features
+- View Reddit posts
+- Search posts by keyword
+- Filter posts by predefined subreddits
+- View comments in a detailed modal/page
+- Responsive design (mobile → desktop)
+- Smooth animations and transitions
+- Error handling and recovery
+- High Lighthouse scores
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Future Work
+- Progressive Web App (PWA)
+- CI/CD deployment pipeline
+- Custom domain
+- Dark mode
+- User authentication
 
-## Expanding the ESLint configuration
+## Running the Project
+- npm install
+- npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running test
+- npm test
+
+## Deployment
+(Add your Netlify/Vercel/GitHub Pages link here)
